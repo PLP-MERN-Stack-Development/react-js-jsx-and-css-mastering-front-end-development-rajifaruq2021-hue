@@ -1,70 +1,52 @@
-# React.js and Tailwind CSS Assignment
+# Week 3 Assignment: React Task Manager & User Directory
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+This is a responsive React application built with Vite, TypeScript, and styled with Tailwind CSS. The project demonstrates a component-based architecture, state management with React Hooks (`useState`, `useEffect`), and integration with a third-party API.
 
-## Assignment Overview
+## Live Application URL
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+*My live application will be available here after deployment.*
 
-## Getting Started
+## Application Screenshots
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
+![Task Manager Screenshot](application-screenshot.png)
 
-## Files Included
+## Features
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
+-   **Component Architecture:** The application is built with reusable components like `Button`, `Card`, `Navbar`, and `Footer`.
+-   **State Management:**
+    -   Uses a custom `useLocalStorage` hook to persist the task list, so tasks are not lost on page refresh.
+    -   Manages the state for the new task input field.
+-   **API Integration:**
+    -   Fetches a list of users from the `jsonplaceholder.typicode.com` API.
+    -   Handles loading and error states gracefully while fetching data.
+-   **Styling:** Styled with the modern, utility-first CSS framework, Tailwind CSS.
 
-## Requirements
+## Setup and Installation
 
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
+Follow these steps to run the project locally.
 
-## Project Structure
+1.  **Prerequisites:**
+    -   Node.js (v18 or higher)
+    -   npm (comes with Node.js)
 
-```
-src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
-```
+2.  **Clone the repository:**
+    ```bash
+    git clone <your-repository-url>
+    ```
 
-## Submission
+3.  **Navigate to the project directory:**
+    ```bash
+    cd my-awesome-app
+    ```
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+4.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+5.  **Start the development server:**
+    ```bash
+    npm run dev
+    ```
 
-## Resources
-
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+6.  Open your browser and navigate to `http://localhost:5173` to see the application running.
