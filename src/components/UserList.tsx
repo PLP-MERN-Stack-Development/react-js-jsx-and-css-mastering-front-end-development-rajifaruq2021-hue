@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Card from './Card';
 
 // 1. Define the "shape" of a User object
